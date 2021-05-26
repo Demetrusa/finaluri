@@ -4,6 +4,16 @@ body {
 header {
     height: 100px;
 }
+.gifi{
+    background-image: url(../images/jeday.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 1600px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -172,3 +182,63 @@ h1{
     max-width: 1150px;
     padding-top: 20px;
 }
+/* section 4 */
+.first-page{
+    background-image: url(../images/ca.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;  
+    height: 1000px;
+    position: relative;
+}
+.sectionCaltext{
+    width: 557.84px;
+    padding-top: 15%;
+    /* padding-left: 60%; */
+    position: absolute;
+}
+.sectionCaltext h3{
+    font-size: 45px;
+    color: black;
+}
+.sectionCaltext p{
+    font-size: 35px;
+    color:rgb(54, 57, 59);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.second-page{
+    background-image: url(../images/raja.png    );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;  
+    height: 1000px;
+    position: relative;
+}
+.second-page-div{
+    width: 760px;
+    color: white;
+    padding-top: 150px;
+    padding-left: 150px;
+    position: absolute;
+}
+.second-page-div h2{
+    font-size: 45px;
+    padding-bottom: 50px;
+    padding-left
+}
+.second-page-div p{
+    font-size: 30px;
+}
+.third-page{
+    background-image: url(../images/enemies.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;  
+    height: 1000px;
+    position: relative;
+}
+.third-page div{
+    width: 500px;
+}
+.third

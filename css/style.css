@@ -35,8 +35,17 @@ ul li {
 ul li a{
     color: #987942;
 }
- a:hover{
-    background:skyblue
+ /* a:hover{
+    background:aqua;
+} */
+.nav-li:hover{
+    background:aqua;
+    padding: 10px;
+    border-radius: 10px;
+}
+.nav-a:hover{
+    background:aqua;
+
 }
 
 .social_media{
@@ -55,6 +64,14 @@ ul li a{
     margin: 0 5px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+.button-wrapper{
+    background-color: #987942;
+    padding: 15px 30px;
+    border-radius: 15px;
+}
+.button-wrapper:hover{
+    background-color: aqua  ;
 }
 /* body */
 

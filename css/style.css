@@ -133,3 +133,25 @@ h1{
     max-width: 1200px;
     width: 100%;
 }
+/* section 3 */
+#Trailer{
+    background-image: url(../images/star-wars-jedi-trailer-section-bg-xl.jpg.adapt.1920w.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;  
+    height: 1000px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.trailer-bg h2{
+    font-size: 45px;
+    color: white;
+    margin-top: 100px;
+}
+.video-wrapper{
+    max-width: 1150px;
+    padding-top: 20px;
+}

@@ -191,6 +191,12 @@ h1{
     height: 1000px;
     position: relative;
 }
+.first-page h2{
+    font-size: 50px;
+    max-width: 60px;
+    margin: 0 auto;
+    color: #987942;
+}
 .sectionCaltext{
     width: 557.84px;
     padding-top: 15%;
@@ -225,7 +231,6 @@ h1{
 .second-page-div h2{
     font-size: 45px;
     padding-bottom: 50px;
-    padding-left
 }
 .second-page-div p{
     font-size: 30px;
@@ -238,7 +243,18 @@ h1{
     height: 1000px;
     position: relative;
 }
-.third-page div{
-    width: 500px;
+.third-page-div{
+    width: 600px;
+    color: white;
+    padding-top: 250px;
+    padding-left: 150px;
+    position: absolute;
+
 }
-.third
+.third-page-div h2{
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+.third-page-div p{
+    font-size: 30px;
+}

@@ -1,261 +1,254 @@
 body {
-    background: black;
+  background: black;
 }
 header {
-    height: 100px;
+  height: 100px;
 }
-.gifi{
-    background-image: url(../images/jeday.gif);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    height: 1600px;
-    text-align: center;
-    align-items: center;
-    position: relative;
+.gifi {
+  background-image: url(../images/jeday.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1600px;
+  text-align: center;
+  align-items: center;
+  position: relative;
 }
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    z-index: 99;
-    background-color: black;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 99;
+  background-color: black;
+  width: 100%;
 }
 .logo {
-    width: 50px;
+  width: 50px;
 }
 ul {
-    display: flex;
-    padding: 30px;
-    text-align: center;
-    align-items: center;
+  display: flex;
+  padding: 30px;
+  text-align: center;
+  align-items: center;
 }
 ul li {
-    padding: 0 50px;
-    
+  padding: 0 50px;
 }
 .section-gif {
-    max-width: 1903px;
+  max-width: 1903px;
 }
-.fas{
-    padding: 5px;
+.fas {
+  padding: 5px;
 }
-ul li a{
-    color: #987942;
+ul li a {
+  color: #987942;
 }
- /* a:hover{
+/* a:hover{
     background:aqua;
 } */
-.nav-li:hover{
-    background:aqua;
-    padding: 10px;
-    border-radius: 10px;
+.nav-li:hover {
+  background: aqua;
+  padding: 10px;
+  border-radius: 10px;
 }
-.nav-a:hover{
-    background:aqua;
+.nav-a:hover {
+  background: aqua;
+}
 
+.social_media {
+  display: flex;
+  flex-direction: column;
+  transform: translateX(-50%);
+  display: flex;
 }
-
-.social_media{
-    display: flex;
-    flex-direction: column;
-    transform: translateX(-50%);
-    display: flex;
+.social_media a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  color: #987942;
+  text-align: center;
+  margin: 0 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
-.social_media a{
-    display: block;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    color:#987942;
-    text-align: center;
-    margin: 0 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+.button-wrapper {
+  background-color: #987942;
+  padding: 15px 30px;
+  border-radius: 15px;
 }
-.button-wrapper{
-    background-color: #987942;
-    padding: 15px 30px;
-    border-radius: 15px;
-}
-.button-wrapper:hover{
-    background-color: aqua  ;
+.button-wrapper:hover {
+  background-color: aqua;
 }
 /* body */
 
-#home{
-    background-image: url(../images/section.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    height: 800px;
-    text-align: center;
-    align-items: center;
-    position: relative;
-
-
+#home {
+  background-image: url(../images/section.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  text-align: center;
+  align-items: center;
+  position: relative;
 }
-.first-article{
-    padding-top: 100px;
-    color:white;
-
+.first-article {
+  padding-top: 100px;
+  color: white;
 }
-h1{
-    font-size: 50px;
-    padding-top: 50px;
+h1 {
+  font-size: 50px;
+  padding-top: 50px;
 }
-.first-article p{
-    padding-top: 30px;
-    font-size: 42px;
+.first-article p {
+  padding-top: 30px;
+  font-size: 42px;
 }
-.first-article img{
-    padding-top: 30px;
+.first-article img {
+  padding-top: 30px;
 }
-.second-article{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 50px;
+.second-article {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
 }
-.box{
-    width: 300px;
-    color: white;
+.box {
+  width: 300px;
+  color: white;
 }
 .box h2 {
-    font-size: 30px;
-    padding-top: 10px;
+  font-size: 30px;
+  padding-top: 10px;
 }
-.text-wrapper{
-    font-size: 25px;
-    padding-top: 20px;
+.text-wrapper {
+  font-size: 25px;
+  padding-top: 20px;
 }
 /* section 2 */
-#About{
-    background-image: url(../images/1556919.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;  
-    height: 800px;
-    text-align: center;
-    align-items: center;
-    position: relative;
-    display: flex;
-    flex-direction: column;
+#About {
+  background-image: url(../images/1556919.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
-.text-block{
-    text-align: center;
+.text-block {
+  text-align: center;
 }
-.text-block h2{
-    font-size: 40px;
-    color: #987942;
-    padding-top: 20px;
-
+.text-block h2 {
+  font-size: 40px;
+  color: #987942;
+  padding-top: 20px;
 }
-.text-block-one{
-    font-size: 25px;
-    color: white;
-    padding-top: 120px;
-    max-width: 1200px;
-    width: 100%;
+.text-block-one {
+  font-size: 25px;
+  color: white;
+  padding-top: 120px;
+  max-width: 1200px;
+  width: 100%;
 }
 /* section 3 */
-#Trailer{
-    background-image: url(../images/star-wars-jedi-trailer-section-bg-xl.jpg.adapt.1920w.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;  
-    height: 1000px;
-    text-align: center;
-    align-items: center;
-    position: relative;
-    display: flex;
-    flex-direction: column;
+#Trailer {
+  background-image: url(../images/star-wars-jedi-trailer-section-bg-xl.jpg.adapt.1920w.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
-.trailer-bg h2{
-    font-size: 45px;
-    color: white;
-    margin-top: 100px;
+.trailer-bg h2 {
+  font-size: 45px;
+  color: white;
+  margin-top: 100px;
 }
-.video-wrapper{
-    max-width: 1150px;
-    padding-top: 20px;
+.video-wrapper {
+  max-width: 1150px;
+  padding-top: 20px;
 }
 /* section 4 */
-.first-page{
-    background-image: url(../images/ca.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;  
-    height: 1000px;
-    position: relative;
+.first-page {
+  background-image: url(../images/ca.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+  position: relative;
 }
-.first-page h2{
-    font-size: 50px;
-    max-width: 60px;
-    margin: 0 auto;
-    color: #987942;
-    padding-top: 50px;
+.first-page h2 {
+  font-size: 50px;
+  max-width: 60px;
+  margin: 0 auto;
+  color: #987942;
+  padding-top: 50px;
 }
-.sectionCaltext{
-    width: 557.84px;
-    padding-top: 15%;
-    /* padding-left: 60%; */
-    position: absolute;
+.sectionCaltext {
+  width: 557.84px;
+  position: absolute;
+  left: 60%;
+  top: 30%;
 }
-.sectionCaltext h3{
-    font-size: 45px;
-    color: black;
+.sectionCaltext h3 {
+  font-size: 45px;
+  color: black;
 }
-.sectionCaltext p{
-    font-size: 35px;
-    color:rgb(54, 57, 59);
-    padding-top: 20px;
-    padding-bottom: 20px;
+.sectionCaltext p {
+  font-size: 35px;
+  color: rgb(54, 57, 59);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-.second-page{
-    background-image: url(../images/raja.png    );
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;  
-    height: 1000px;
-    position: relative;
+.second-page {
+  background-image: url(../images/raja.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+  position: relative;
 }
-.second-page-div{
-    width: 760px;
-    color: white;
-    padding-top: 150px;
-    padding-left: 150px;
-    position: absolute;
+.second-page-div {
+  width: 500px;
+  color: white;
+  top: 30%;
+  left: 15%;
+  position: absolute;
 }
-.second-page-div h2{
-    font-size: 45px;
-    padding-bottom: 50px;
+.second-page-div h2 {
+  font-size: 45px;
+  padding-bottom: 50px;
 }
-.second-page-div p{
-    font-size: 30px;
+.second-page-div p {
+  font-size: 30px;
 }
-.third-page{
-    background-image: url(../images/enemies.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;  
-    height: 1000px;
-    position: relative;
+.third-page {
+  background-image: url(../images/enemies.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+  position: relative;
 }
-.third-page-div{
-    width: 600px;
-    color: white;
-    padding-top: 250px;
-    padding-left: 150px;
-    position: absolute;
-
+.third-page-div {
+  width: 600px;
+  color: white;
+  top: 30%;
+  left: 15%;
+  position: absolute;
 }
-.third-page-div h2{
-    font-size: 40px;
-    padding-bottom: 50px;
+.third-page-div h2 {
+  font-size: 40px;
+  padding-bottom: 50px;
 }
-.third-page-div p{
-    font-size: 30px;
+.third-page-div p {
+  font-size: 30px;
 }

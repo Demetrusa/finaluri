@@ -117,6 +117,7 @@ h1 {
   display: flex;
   justify-content: space-around;
   padding-top: 50px;
+  flex-wrap: wrap;
 }
 .box {
   max-width: 300px;

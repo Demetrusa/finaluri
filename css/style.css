@@ -310,7 +310,6 @@ h1 {
 }
 .register-flex {
   display: flex;
-  flex-wrap: wrap;
   padding: 7%;
   max-width: 1400px;
   width: 100%;

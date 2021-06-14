@@ -97,7 +97,7 @@
     font-size: 18px;
   }
   .second-flex {
-    width: 500px;
+    width: 600px;
   }
   .checkboxi h2 {
     font-size: 15px;
@@ -118,6 +118,145 @@
   .video-wrapper {
     width: 1000px;
     padding-bottom: 20px;
+    margin: 0 auto;
+  }
+  .nav-list {
+    padding: 20px;
+  }
+  header {
+    height: auto;
+  }
+}
+@media (max-width: 1130px) {
+  header {
+    height: auto;
+    font-size: 12px;
+  }
+  .button-wrapper {
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 1024px) {
+  .text-block {
+    height: auto;
+    height: 500px;
+  }
+  .gifi {
+    height: auto;
+    height: 800px;
+  }
+  .text-block h2 {
+    font-size: 20px;
+    color: white;
+  }
+  .text-block-one {
+    max-width: 700px;
+    font-size: 15px;
+  }
+  .main-wrapper {
+    height: auto;
+    height: 800px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .first-article p {
+    font-size: 26px;
+  }
+  .box h2 {
+    font-size: 16px;
+  }
+  .box p {
+    font-size: 15px;
+  }
+  .trailer-bg h2 {
+    font-size: 28px;
+  }
+  .trailer-bg {
+    height: auto;
+    height: 600px;
+  }
+  .first-page {
+    height: 600px;
+  }
+  .first-page h2 {
+    color: white;
+    font-size: 28px;
+  }
+  .sectionCaltext h3 {
+    font-size: 28px;
+  }
+  .sectionCaltext p {
+    font-size: 20px;
+  }
+  .sectionCaltext {
+    width: 400px;
+  }
+  .second-page {
+    height: auto;
+    height: 800px;
+  }
+  .second-page-div {
+    width: 350px;
+  }
+  .second-page-div h2 {
+    font-size: 28px;
+  }
+  .second-page-div p {
+    font-size: 18px;
+  }
+  .third-page-div {
+    width: 300px;
+  }
+  .third-page {
+    height: auto;
+    height: 600px;
+  }
+  .third-page h2 {
+    font-size: 28px;
+  }
+  .third-page p {
+    font-size: 18px;
+  }
+  .register {
+    height: auto;
+    height: 500x;
+  }
+  .register-flex {
+    width: 1000px;
+  }
+  .first-flex {
+    width: 350px;
+  }
+  .first-flex h2 {
+    font-size: 18px;
+  }
+  .first-flex p {
+    font-size: 16px;
+  }
+  .second-flex {
+    width: 400px;
+  }
+  .checkboxi h2 {
+    font-size: 14px;
+    width: 350px;
+  }
+  .Markers {
+    height: auto;
+    height: 400px;
+  }
+  .Markers h3 {
+    width: 450px;
+    font-size: 26px;
+  }
+  .contact-div {
+    width: 500px;
+    font-size: 19px;
+  }
+  .video-wrapper {
+    width: 1800px;
+    padding-bottom: 18px;
     margin: 0 auto;
   }
   .nav-list {

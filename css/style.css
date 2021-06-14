@@ -3,6 +3,8 @@ body {
 }
 header {
   height: 100px;
+  font-family: "Do Hyeon", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 .gifi {
   background-image: url(../images/jeday.gif);
@@ -79,6 +81,7 @@ ul li a {
   background-color: #987942;
   padding: 15px 30px;
   border-radius: 15px;
+  font-family: "Do Hyeon", sans-serif;
 }
 .button-wrapper:hover {
   background-color: aqua;
@@ -119,6 +122,7 @@ h1 {
   max-width: 300px;
   width: 100%;
   color: white;
+  font-family: "Lato", sans-serif;
 }
 .box h2 {
   font-size: 30px;
@@ -140,6 +144,7 @@ h1 {
   position: relative;
   display: flex;
   flex-direction: column;
+  font-family: "Lato", sans-serif;
 }
 
 .text-block {
@@ -176,6 +181,7 @@ h1 {
   margin-top: 100px;
   max-width: 1000px;
   width: 100%;
+  font-family: "Do Hyeon", sans-serif;
 }
 .video-wrapper {
   max-width: 1150px;
@@ -205,6 +211,7 @@ h1 {
   position: absolute;
   left: 60%;
   top: 30%;
+  font-family: "Do Hyeon", sans-serif;
 }
 .sectionCaltext h3 {
   font-size: 45px;
@@ -231,6 +238,7 @@ h1 {
   top: 30%;
   left: 15%;
   position: absolute;
+  font-family: "Do Hyeon", sans-serif;
 }
 .second-page-div h2 {
   font-size: 45px;
@@ -306,6 +314,7 @@ h1 {
   max-width: 1400px;
   width: 100%;
   margin: 0 auto;
+  font-family: "Exo", sans-serif;
 }
 #Country {
   height: 30px;
@@ -346,7 +355,11 @@ h1 {
   width: 100%;
   font-size: 30px;
   padding: 20px;
+  font-family: "Dancing Script", cursive;
 }
 input:focus {
   outline: none;
+}
+.number3 {
+  font-family: "Abril Fatface", cursive;
 }

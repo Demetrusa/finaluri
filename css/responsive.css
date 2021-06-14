@@ -396,3 +396,6 @@
     font-size: 18px;
   }
 }
+/* 480 320 */
+@media (max-width: 480px min-widt: 320px) {
+}

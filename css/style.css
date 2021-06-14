@@ -24,7 +24,8 @@ nav {
   width: 100%;
 }
 .logo {
-  width: 50px;
+  max-width: 50px;
+  width: 100%;
 }
 ul {
   display: flex;
@@ -33,10 +34,11 @@ ul {
   align-items: center;
 }
 ul li {
-  padding: 0 50px;
+  padding: 0 30px;
 }
 .section-gif {
   max-width: 1903px;
+  width: 100%;
 }
 .fas {
   padding: 5px;
@@ -83,7 +85,7 @@ ul li a {
 }
 /* body */
 
-#home {
+.main-wrapper {
   background-image: url(../images/section.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -104,6 +106,8 @@ h1 {
 .first-article p {
   padding-top: 30px;
   font-size: 42px;
+  max-width: 1662px;
+  width: 100%;
 }
 .first-article img {
   padding-top: 30px;
@@ -114,7 +118,8 @@ h1 {
   padding-top: 50px;
 }
 .box {
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   color: white;
 }
 .box h2 {
@@ -126,7 +131,7 @@ h1 {
   padding-top: 20px;
 }
 /* section 2 */
-#About {
+.text-block {
   background-image: url(../images/1556919.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -155,7 +160,7 @@ h1 {
   width: 100%;
 }
 /* section 3 */
-#Trailer {
+.trailer-bg {
   background-image: url(../images/star-wars-jedi-trailer-section-bg-xl.jpg.adapt.1920w.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -171,9 +176,12 @@ h1 {
   font-size: 45px;
   color: white;
   margin-top: 100px;
+  max-width: 1000px;
+  width: 100%;
 }
 .video-wrapper {
   max-width: 1150px;
+  width: 100%;
   padding-top: 20px;
 }
 /* section 4 */
@@ -188,12 +196,14 @@ h1 {
 .first-page h2 {
   font-size: 50px;
   max-width: 60px;
+  width: 100%;
   margin: 0 auto;
   color: #987942;
   padding-top: 50px;
 }
 .sectionCaltext {
-  width: 557.84px;
+  max-width: 557.84px;
+  width: 100%;
   position: absolute;
   left: 60%;
   top: 30%;
@@ -217,7 +227,8 @@ h1 {
   position: relative;
 }
 .second-page-div {
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   color: white;
   top: 30%;
   left: 15%;
@@ -239,7 +250,8 @@ h1 {
   position: relative;
 }
 .third-page-div {
-  width: 600px;
+  max-width: 600px;
+  width: 100%;
   color: white;
   top: 30%;
   left: 15%;
@@ -259,23 +271,28 @@ h1 {
 }
 .first-flex {
   max-width: 566px;
+  width: 100%;
   color: white;
 }
 .first-flex h2 {
   font-size: 35px;
+  padding-bot: 15px;
 }
 .first-flex p {
   font-size: 20px;
+  padding-top: 50px;
 }
 .second-flex {
   padding-left: 100px;
   color: white;
+  max-width: 696px;
+  width: 100%;
 }
 .input-wraper {
-  width: 350px;
+  max-width: 350px;
+  height: 100%;
   height: 30px;
   border: 2px solid white;
-  color: white;
 }
 
 .input-wraper-2 {
@@ -289,6 +306,7 @@ h1 {
   display: flex;
   padding: 7%;
   max-width: 1400px;
+  width: 100%;
   margin: 0 auto;
 }
 #Country {
@@ -312,7 +330,7 @@ h1 {
   color: white;
 }
 .img-wrapper {
-  width: 70px;
+  width: 45px;
   margin: 20px;
 }
 .last-section-images {
@@ -323,9 +341,14 @@ h1 {
   font-size: 40px;
   padding: 50px;
   max-width: 700px;
+  width: 100%;
 }
 .contact-div {
   max-width: 750px;
+  width: 100%;
   font-size: 30px;
   padding: 20px;
+}
+input:focus {
+  outline: none;
 }

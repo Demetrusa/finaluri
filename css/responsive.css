@@ -1,0 +1,129 @@
+@media (max-width: 1324px) {
+  .text-block {
+    height: auto;
+    height: 700px;
+  }
+  .gifi {
+    height: auto;
+    height: 1000px;
+  }
+  .text-block h2 {
+    font-size: 30px;
+    color: white;
+  }
+  .text-block-one {
+    max-width: 900px;
+    font-size: 18px;
+  }
+  .main-wrapper {
+    height: auto;
+    height: 800px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .first-article p {
+    font-size: 32px;
+  }
+  .box h2 {
+    font-size: 20px;
+  }
+  .box p {
+    font-size: 18px;
+  }
+  .trailer-bg h2 {
+    font-size: 35px;
+  }
+  .trailer-bg {
+    height: auto;
+    height: 800px;
+  }
+  .first-page {
+    height: 800px;
+  }
+  .first-page h2 {
+    color: white;
+    font-size: 35px;
+  }
+  .sectionCaltext h3 {
+    font-size: 33px;
+  }
+  .sectionCaltext p {
+    font-size: 24px;
+  }
+  .sectionCaltext {
+    width: 400px;
+  }
+  .second-page {
+    height: auto;
+    height: 800px;
+  }
+  .second-page-div {
+    width: 400px;
+  }
+  .second-page-div h2 {
+    font-size: 33px;
+  }
+  .second-page-div p {
+    font-size: 22px;
+  }
+  .third-page-div {
+    width: 400px;
+  }
+  .third-page {
+    height: auto;
+    height: 800px;
+  }
+  .third-page h2 {
+    font-size: 33px;
+  }
+  .third-page p {
+    font-size: 22px;
+  }
+  .register {
+    height: auto;
+    height: 450px;
+  }
+  .register-flex {
+    width: 1200px;
+  }
+  .first-flex {
+    width: 450px;
+  }
+  .first-flex h2 {
+    font-size: 25px;
+  }
+  .first-flex p {
+    font-size: 18px;
+  }
+  .second-flex {
+    width: 500px;
+  }
+  .checkboxi h2 {
+    font-size: 15px;
+    width: 400px;
+  }
+  .Markers {
+    height: auto;
+    height: 450px;
+  }
+  .Markers h3 {
+    width: 500px;
+    font-size: 30px;
+  }
+  .contact-div {
+    width: 600px;
+    font-size: 22px;
+  }
+  .video-wrapper {
+    width: 1000px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+  }
+  .nav-list {
+    padding: 20px;
+  }
+  header {
+    height: auto;
+  }
+}

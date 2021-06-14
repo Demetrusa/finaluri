@@ -325,7 +325,74 @@
   }
   header {
     height: auto;
-    align-items: center;
-    text-align: center;
+  }
+  .logo {
+    max-width: 30px;
+  }
+  nav {
+    color: #e09209;
+    font-size: 10px;
+  }
+  .main-wrapper {
+    height: auto;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  .first-article {
+    padding-top: 20px;
+  }
+  .first-article p {
+    font-size: 16px;
+  }
+  .box {
+    padding-bottom: 20px;
+  }
+  .symbol {
+    height: 30px;
+  }
+  .text-blockP {
+    height: auto;
+  }
+  .text-block-one {
+    padding-top: 50px;
+    font-size: 16px;
+  }
+  .trailer-bg {
+    height: auto;
+  }
+  .video-wrapper {
+    width: 500px;
+    padding-bottom: 30px;
+  }
+  iframe {
+    width: 500px;
+    padding-bottom: 30px;
+  }
+  .first-page {
+    width: 768px;
+  }
+  .sectionCaltext h3 {
+    font-size: 20px;
+  }
+  .sectionCaltext p {
+    font-size: 16px;
+  }
+  .sectionCaltex {
+    width: 300px;
+  }
+  .second-page {
+    background-image: url(../images/raja.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 768px;
+    position: relative;
+  }
+  .third-page h2 {
+    font-size: 20px;
+  }
+  .third-page p {
+    font-size: 18px;
   }
 }

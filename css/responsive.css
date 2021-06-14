@@ -113,6 +113,7 @@
   .contact-div {
     width: 600px;
     font-size: 22px;
+    padding-left: 30px;
   }
   .video-wrapper {
     width: 1000px;
@@ -378,7 +379,7 @@
   .sectionCaltext p {
     font-size: 16px;
   }
-  .sectionCaltex {
+  .sectionCaltext {
     width: 300px;
   }
   .second-page {
@@ -400,7 +401,7 @@
 @media (max-width: 320px) {
   .gifi {
     min-width: 320px;
-    max-width: 480px;
+    height: 500px;
   }
   .main-wrapper {
     height: auto;
@@ -439,5 +440,113 @@
   iframe {
     width: 200px;
     height: 100px;
+  }
+  .trailer-bg h2 {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .first-page {
+    height: 320px;
+    width: 320px;
+  }
+  .first-page h2 {
+    display: none;
+  }
+  .sectionCaltext {
+    top: 5%;
+    left: 50%;
+    width: 100px;
+  }
+  .sectionCaltext h3 {
+    font-size: 15px;
+    height: 50px;
+  }
+  .sectionCaltext p {
+    padding-top: 1px;
+    font-size: 10px;
+  }
+  .second-page {
+    height: 320px;
+    width: 320px;
+  }
+  .second-page-div h2 {
+    font-size: 15px;
+  }
+  .second-page-div {
+    height: 100px;
+    top: 20%;
+    left: 10%;
+  }
+  .second-page-div p {
+    font-size: 10px;
+    width: 100px;
+  }
+  .third-page {
+    width: 320px;
+    height: 320px;
+  }
+  .third-page-div {
+    /* width: 100px; */
+    top: 20%;
+    left: 10%;
+  }
+  .third-page-div h2 {
+    font-size: 15px;
+  }
+  .third-page-div p {
+    font-size: 10px;
+    width: 100px;
+  }
+  .register {
+    width: 320px;
+  }
+  .register-flex {
+    width: 320px;
+    height: 500px;
+    flex-wrap: wrap;
+  }
+  .first-flex h2 {
+    height: 15px;
+    font-size: 10px;
+  }
+  .first-flex p {
+    font-size: 8px;
+    padding-top: 20px;
+  }
+  .button-wrapper-2 {
+    border-radius: 8px;
+    padding: 8px 12px;
+  }
+  .Markers {
+    width: 320px;
+  }
+  .markers h3 {
+    font-size: 15px;
+    padding-top: 20px;
+  }
+  .last-section-images {
+    height: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .contact-div {
+    padding-top: 90%;
+    font-size: 15px;
+    width: 200px;
+  }
+  nav {
+    width: 320px;
+    position: fixed;
+  }
+  .nav-list {
+    flex-direction: column;
+    width: 320px;
+    padding-bottom: 5px;
+  }
+  ul {
+    padding-bottom: 5px;
+  }
+  .img-wrapper {
+    height: 40px;
   }
 }

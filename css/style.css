@@ -117,7 +117,6 @@ h1 {
   display: flex;
   justify-content: space-around;
   padding-top: 50px;
-  flex-wrap: wrap;
 }
 .box {
   max-width: 300px;
@@ -311,6 +310,7 @@ h1 {
 }
 .register-flex {
   display: flex;
+  flex-wrap: wrap;
   padding: 7%;
   max-width: 1400px;
   width: 100%;
@@ -328,7 +328,7 @@ h1 {
   width: 566px;
   font-size: 20px;
 }
-.Markers {
+.markers {
   background-image: url(../images/star-wars-jedi-trailer-section-bg-xl.jpg.adapt.1920w.jpg);
   height: 550px;
   background-repeat: no-repeat;
@@ -345,7 +345,7 @@ h1 {
   display: flex;
   justify-content: space-between;
 }
-.Markers h3 {
+.markers h3 {
   font-size: 40px;
   padding: 50px;
   max-width: 700px;
@@ -363,4 +363,10 @@ input:focus {
 }
 .number3 {
   font-family: "Abril Fatface", cursive;
+}
+.button-wrapper-2 {
+  background-color: #987942;
+  padding: 15px 30px;
+  border-radius: 15px;
+  font-family: "Do Hyeon", sans-serif;
 }

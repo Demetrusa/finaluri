@@ -548,6 +548,10 @@
     font-size: 15px;
     width: 200px;
   }
+  .nav-li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
   .img-wrapper {
     height: 40px;
   }
@@ -563,5 +567,9 @@
   }
   .button-wrapper {
     display: none;
+  }
+  .nav-li:hover {
+    border-radius: 10px;
+    background: black;
   }
 }

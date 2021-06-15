@@ -293,7 +293,7 @@
   }
   .second-flex {
     width: 300px;
-    padding-left: 35px;
+    padding: 15px;
   }
   .register-flex {
     height: auto;
@@ -405,6 +405,7 @@
   }
   .main-wrapper {
     height: auto;
+    width: 320px;
   }
   .first-article {
     padding-top: 15px;
@@ -426,6 +427,7 @@
   }
   .text-block {
     height: auto;
+    width: 320px;
   }
   .text-block h2 {
     font-size: 14px;
@@ -440,6 +442,10 @@
   iframe {
     width: 200px;
     height: 100px;
+  }
+  .trailer-bg {
+    width: 320px;
+    height: auto;
   }
   .trailer-bg h2 {
     margin-top: 10px;
@@ -469,24 +475,21 @@
     height: 320px;
     width: 320px;
   }
-  .second-page-div h2 {
-    font-size: 15px;
-  }
   .second-page-div {
-    height: 100px;
-    top: 20%;
-    left: 10%;
+    width: 200px;
+  }
+  .second-page-div h2 {
+    font-size: 14px;
   }
   .second-page-div p {
     font-size: 10px;
-    width: 100px;
   }
   .third-page {
     width: 320px;
     height: 320px;
   }
   .third-page-div {
-    /* width: 100px; */
+    width: 200px;
     top: 20%;
     left: 10%;
   }
@@ -501,9 +504,12 @@
     width: 320px;
   }
   .register-flex {
-    width: 320px;
-    height: 500px;
+    padding-left: 10px;
+    width: 250px;
     flex-wrap: wrap;
+  }
+  .second-flex {
+    width: 250px;
   }
   .first-flex h2 {
     height: 15px;
@@ -517,8 +523,9 @@
     border-radius: 8px;
     padding: 8px 12px;
   }
-  .Markers {
+  .markers {
     width: 320px;
+    height: auto;
   }
   .markers h3 {
     font-size: 15px;
@@ -534,19 +541,20 @@
     font-size: 15px;
     width: 200px;
   }
-  nav {
-    width: 320px;
-    position: fixed;
+  .img-wrapper {
+    height: 40px;
   }
   .nav-list {
     flex-direction: column;
-    width: 320px;
+    width: 100%;
     padding-bottom: 5px;
+    text-align: center;
+    align-tracks: center;
   }
-  ul {
-    padding-bottom: 5px;
+  .social_media {
+    display: none;
   }
-  .img-wrapper {
-    height: 40px;
+  .button-wrapper {
+    display: none;
   }
 }

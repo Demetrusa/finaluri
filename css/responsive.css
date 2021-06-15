@@ -311,6 +311,7 @@
   }
   .button-wrapper {
     padding: 5px 10px;
+    display: none;
   }
   .first-flex h2 {
     font-size: 12px;
@@ -333,6 +334,12 @@
   nav {
     color: #e09209;
     font-size: 10px;
+  }
+  .nav-list {
+    width: 100%;
+    padding-bottom: 5px;
+    text-align: center;
+    align-tracks: center;
   }
   .main-wrapper {
     height: auto;
